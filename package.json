@@ -1,0 +1,17 @@
+{
+  "name": "mongo-api-exemplo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "nodemon": "DEBUG=app nodemon index.js",
+    "chokidar": "DEBUG=app node index.js"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.2"
+  }
+}
